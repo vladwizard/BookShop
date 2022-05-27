@@ -1,5 +1,5 @@
 import React from "react";
-import BookParagraph from "../components/BookParagraph";
+import BookParagraph from "../components/BookParagraph/BookParagraph";
 import bookJSON from "../books.json"
 const bookList = new Array(...bookJSON);
 

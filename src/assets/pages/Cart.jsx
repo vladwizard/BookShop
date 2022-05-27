@@ -1,5 +1,5 @@
 import React from "react";
-import CartParagraph from "../components/CartParagraph";
+import CartParagraph from "../components/CartParagraph/CartParagraph";
 
 import {cartContext} from "../../App.jsx"
 

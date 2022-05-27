@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./BookParagraph.module.css"
-import {cartContext} from "../../App.jsx"
+import {cartContext} from "../../../App.jsx"
 
 
 function BookParagraph({book}) {
