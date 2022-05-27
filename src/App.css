@@ -1,38 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 .App {
-  text-align: center;
+    background: bisque;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.wrapper {
+
+    background: aliceblue;
+    margin: 0px 10% 0px 10%;
+    min-height: 101vh;
+    box-shadow: darkgray 8px 0px 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header {
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header .container {
+    box-sizing: border-box;
+
+    width: 80%;
+    position: fixed;
+    padding: 5px 20px;
+    height: 50px;
+    background: skyblue;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 15px 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.header__logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header__logo img {
+    height: 100%;
+}
+.find__line{
+    width: 310px;
+
+}
+.find__line input {
+    box-sizing: border-box;
+    width: 250px;
+    border: none;
+    font-size: 25px;
+    border-radius: 4px;
+    padding-left: 5px;
+    padding-right: 30px;
+}
+
+.find__line input:focus {
+    border: lightgrey 5px solid;
+}
+
+.find__line img {
+    position: relative;
+    left: -29px;
+    top: 4px;
+    height: 25px;
+    opacity: 0.5;
+}
+.find__line img:hover {
+    opacity: 0.8;
+}
+.cart__button__container{
+    width: 200px;
+}
+.cart__button {
+    margin-left: auto;
+    width: max-content;
+    padding: 0 4px;
+    height: 30px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border: solid black 2px;
+}
+
+.cart__button:hover {
+    background-color: lightcyan;
+}
+
+.cart__button img {
+    height: 100%;
+}
+
+.button__delimiter {
+    width: 2px;
+    height: 100%;
+    background-color: black;
+    margin-left: 4px;
+    margin-right: 3px;
+}
+
+.content {
+    padding-top: 50px;
+    padding-left: 2vh;
+    padding-right: 2vh;
 }
